@@ -1,0 +1,33 @@
+.carousel-owl a.slide-item, .carousel-owl div.slide-item {
+	padding: 0px;
+	display: block;
+	text-decoration: none;
+}
+
+.carousel-owl h1 {
+	margin: 20px 20px 0px 20px;
+	color: #FFFFFF;
+	font-size: 38px;
+	font-weight: bold;
+	display: inline-block;
+	clear: both;
+	line-height: 1.1em;
+}
+
+.file_attached {
+	display: inline-block;
+	margin: 20px 0px 0px 20px;
+}
+
+.carousel-owl h3 {
+	margin: 10px 20px 0px 20px;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	clear: both;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 10px !important;
+} 

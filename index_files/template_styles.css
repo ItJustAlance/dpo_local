@@ -1,0 +1,625 @@
+.hidden-imp{
+	display: none !important;
+}
+.error-input{
+    border-color: red;
+}
+.send_support_ajax{
+	color: green;
+	display: none;
+}
+.send_support_ajax_ok, .ajax_l_c, .hide_sp, .hide_b, .update_login_ajax{
+	display: none;
+}
+.update_login_ajax{
+	margin-top: 10px;
+}
+.er_send{
+	border: 1px solid red !important
+}
+.tablebodytext{
+	display: none !important;
+}
+.inner_filtr{
+	width: 50%;
+	margin: 0 0 20px 0;
+	display: none
+}
+.ajax_ok{
+	color: green;
+	margin-bottom: 15px;
+}
+.list_r_curs, .list_r_category{
+	margin-top: 10px;
+	display: none;
+}
+.pole-group2{
+	background: #fff;
+	border: 1px solid #c5c2c2;
+	border-radius: 3px;
+	height: 30px;
+	width: 250px;
+	line-height: 29px;
+	vertical-align: middle;
+	margin: 10px 5px 0 0;
+	padding: 0 5px;
+}
+.update_login_text, .update_pas_text{
+	display: none;
+}
+.btn-blue2 {
+	background: #0096db;
+	border: none;
+	display: inline-block;
+	zoom: 1;
+	position: relative;
+	vertical-align: top;
+	padding: 6px 15px 8px;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 0;
+	margin: 15px 0 0 0 !important;
+}
+.p_red{
+	color:red;
+}
+.p_green, .ajax_info_user{
+	color:green;
+}
+.ans_p, .ans_p_u{
+	color:green;
+	margin-top: 10px;
+	display: none;
+}
+.ajax_info_user{
+	margin-top: 15px;
+	display: none;
+}
+.update_pas_text, .update_pas_but, .update_pas_ajax{
+	margin-left: 20px !important;
+}
+.index_a span,.index_a h1{
+	cursor: pointer;
+}
+.reg_y{
+	color: green !important;
+}
+.ajax_c_r{
+	display: block;
+	text-decoration:none;
+}
+.ajax_c_r:hover{
+	text-decoration: underline;
+}
+.reload_c{
+	height: 30px;
+	display: block;
+}
+.ik_select_list_inner{
+	max-height: 200px !important;
+	z-index: 500;
+	position: relative;
+}
+.ik_select_list_inner ul{
+	max-height: 200px !important;
+	background: #fff;
+	z-index: 500;
+	position: relative;
+	overflow-y: auto;
+}
+.ik_select_list{
+	border: 1px solid #ccc;
+}
+.answer_dog{
+	color: green;
+}
+.note_k{
+	background: #efefef;
+	padding: 10px;
+	text-align: center;
+	margin: 0 0 10px 0;
+	border: 1px solid #c7c7c7;
+	border-radius: 4px;
+	box-shadow: 0px 2px 2px #c7c7c7;
+}
+.note_k span{
+	display: block;
+	margin: 10px 0;
+}
+.note_k p{
+
+}
+.i_you{
+	display: block;
+	background: url('/img/youtube.png');
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 6px 5px 0 0;
+}
+.i_li{
+	display: block;
+	background: url('/img/linkedin.png');
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 6px 5px 0 0;
+}
+
+.b-list-contract {
+    border: 1px solid #b0b0b0;
+    /*float: left;*/
+    margin: 20px 0 0;
+    padding: 10px 2%;
+    width: 96%;
+    border-radius: 4px;
+}
+
+.filter {
+    padding: 2.6%;
+    padding-left: 0;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+   /* border: 1px dashed red;*/
+}
+
+.form-button {
+    background: #0096db;
+    border: none;
+    display: inline-block;
+    padding: 6px 15px 8px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.form-button:hover {
+    background: #27b0ef;
+}
+
+#filter-contract select {
+    height:30px;
+    border-radius: 4px;
+    padding: 0 5px;
+    width: 150px;
+    vertical-align: middle;
+    border: 1px solid #c5c2c2;
+}
+
+#filter-contract input {
+    height: 26px;
+    padding: 0 5px;
+    width: 450px;
+    border-radius: 4px;
+    border: 1px solid #c5c2c2;
+    margin: 0 0 0 20px;
+    vertical-align: middle;
+}
+
+.filter .line {
+    height:40px;
+}
+
+.contract-tbl {
+    width:100%;
+    border-collapse: collapse;
+}
+
+.contract-tbl th {
+    border-bottom: 1px solid #999999;
+}
+
+.contract-tbl td {
+    border-bottom: 1px solid #666666;
+}
+
+.contract-tbl td,
+.contract-tbl th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.contract-tbl td:nth-child(2n){
+    background: #e5e5ff;
+}
+
+.contart-details input,
+.contart-details select {
+
+    padding: 0 5px;
+    border-radius: 4px;
+    border: 1px solid #c5c2c2;
+    height: 30px;
+    margin: 0 5px 5px 0;
+}
+
+.contart-details input[readonly],
+.contart-details select[disabled] {
+	background: #eee;
+}
+
+.contart-details input {
+    width: 300px;
+}
+
+.contart-details select {
+    width: 312px;
+}
+
+.contart-details {
+    text-align: center;
+    margin: 5px auto;
+    width: auto;
+}
+
+#contract-add {
+    text-align: center;
+}
+
+#contract-add h3 {
+    font-size: 26px;
+}
+
+
+
+.contract-ctrl {
+    padding: 20px 0;
+}
+
+.form-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px 15px 15px;
+    position: relative;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.form-section h4 {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: -12px;
+    padding: 0 5px;
+    margin: 0;
+    background: #fff;
+}
+
+.contract-list-pupils {
+    width: 200px;
+}
+
+.tbl-for-fields {
+     	width: 100%;
+     	border: none;
+}
+
+.tbl-for-fields td {
+     	width: 33%;
+     	border: none;
+     	vertical-align: top;
+}
+
+.tbl-for-fields h5 {
+     	font-size: 14px;
+        font-weight: bold;
+        padding: 5px 0;
+}
+
+/* ~~~ /schoolcurs ~~~ */
+
+.schoolcurs-wrap {
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.schcurs-form select {
+    border: 1px solid #cecece;
+    padding: 6px;
+    background: #FFF;
+    width:100%;
+        border-radius: 5px;
+}
+
+.schoolcurs-wrap h3 {
+	font-size: 24px;
+}
+
+.schoolcurs-wrap h4 {
+	font-size: 18px;
+}
+
+form.schcurs-form {
+	/*width: 80%;*/
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background: #f0f0f0;
+    padding: 5px 20px;
+}
+
+.schcurs-form .select2-selection__arrow b {
+	border-color: #2a2a2a transparent transparent transparent!important;
+	margin-left: -2px!important;
+	border-width: 6px 3px 0 3px!important;
+}
+
+.schcurs-form .select2-selection {
+	border-color: #cecece!important;
+}
+
+.schcurs-form .select2-selection__rendered {
+	color: #000!important;
+}
+
+.schcurs-form .select2-selection--single {
+	height: 31px;
+}
+
+form.schcurs-form table {
+	width: 100%;
+	border:none!important;
+}
+
+form.schcurs-form table td {
+	border: none!important;
+    padding: 4px;
+}
+
+form.schcurs-form table td:first-child {
+	text-align: right;
+}
+
+.btn-blue,
+.btn-red {
+	font-size: 18px!important;
+}
+.btn-blue.b-del-temp,
+.btn-red.b-del-temp {
+	font-size: 1.1em !important;
+	outline:none;
+}
+
+.fltr-btns {
+	text-align: center;
+}
+
+.schoolcurs-header-hr {
+    height: 2px;
+    border: none;
+    background: #0096db;
+    margin: 20px 0;
+}
+
+.schoolcurs-item {
+	padding: 20px 50px 40px 50px;
+}
+
+.schoolcurs-item:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+.school-name-h {
+    font-weight: normal;
+    text-decoration: underline;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 22px;
+	text-underline-position: under;
+}
+
+.schoolcurs-wrap .tbl {
+	display: table;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.schoolcurs-wrap .tbl-td {
+	display: table-cell;
+    width: 49%;
+		max-width: 445px;
+    padding: 10px;
+    border: 1px dashed #aaa;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.schoolcurs-wrap .tbl-td-spacer {
+	display: table-cell;
+	width: 2%;
+}
+
+.schoolcurs-block {
+	word-wrap: break-word;
+}
+
+.schoolcurs-block h4 {
+
+}
+
+.schoolcurs-block ul {
+    display: block;
+    margin-left: 40px;
+    padding-top: 4px;
+}
+
+.schoolcurs-block ul li {
+    position: relative;
+}
+
+.schoolcurs-block ul li:before {
+	content: '';
+	display: block;
+	height: 8px;
+    width: 8px;
+    background-color: #0096db;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 8px;
+}
+
+.schoolcurs-item-footer {
+        padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.schoolcurs-btns {
+	float: right;
+}
+
+.schoolcurs-wrap .accepted {
+	float: right;
+    color: grey;
+    margin: 0 0 0 5px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 6px 15px 9px 15px;
+    border: 1px solid grey;
+}
+
+.schoolcurs-wrap .rating {
+	display: table;
+	float: right;
+    width: 60%;
+    margin-top: 12px;
+	position: relative;
+}
+
+.schoolcurs-wrap .rating:before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	top: 50%;
+	margin-top: -1px;
+	background-color: red;
+}
+
+.schoolcurs-wrap .rating li {
+	display: table-cell;
+	/*width: 33.3%;*/
+	position: relative;
+}
+
+.schoolcurs-wrap .rating li:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #0096db;
+	top: 50%;
+	right:-5px;
+	margin-top: -5px;
+}
+
+.schoolcurs-wrap .rating li:last-child:after {
+	display: none;
+}
+
+.schoolcurs-wrap .rating-upon {
+	position: absolute;
+	width: 100px;
+	top: -30px;
+	left: -50px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.schoolcurs-wrap .rating-under {
+	position: absolute;
+	width: 100px;
+	bottom: -30px;
+	left: -50px;
+	text-align: center;
+	color: #777;
+    font-size: 14px;
+}
+
+.schoolcurs-wrap h2.grey-bg {
+	background: #f9f9f9;
+	padding: 10px 20px;
+}
+
+.curses_list a {
+text-decoration: none !important;
+/* border-bottom: 1px solid #b8d9e3; */
+}
+.curses_list a:hover {
+text-decoration: none !important;
+border-bottom: 0px solid #b8d9e3;
+}
+
+
+
+.menu__list {
+	float: right;
+	margin-right: 15px;
+}
+
+.dropbtn {
+	background: #0096db none repeat scroll 0 0 !important;
+	border: medium none;
+	border-radius: 3px;
+	color: #fff !important;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 8px 15px 8px !important;
+	position: relative;
+	text-decoration: none;
+	vertical-align: bottom;
+	float: right;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #0096db;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	top: 40px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: #FFF;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	overflow: hidden
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover { overflow: hidden !important; color: #FFF !important; background-color: #E63427}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
