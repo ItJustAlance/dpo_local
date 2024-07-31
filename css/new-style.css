@@ -218,3 +218,28 @@ table.table3 thead .bord-bottom {border-bottom: 1px solid #fff;}
 .box-comment__label {font-size: 14px;font-weight: bold;color: #0096DB;margin-right: 8px;}
 .box-comment__text {}
 
+.tags-box-application {display: flex; flex-wrap: wrap; margin: 0 -8px 16px;}
+.tags-box-application .b-item-tags{display: inline-flex;margin: 0 8px 16px; vertical-align: top;}
+.tags-box-application .b-item-tags__link {}
+.tags-box-application {}
+.tags-box-application {}
+
+.tags-box-application .b-item-tags__link {display: block; font-size: 14px;color: #485256;padding: 8px; text-align: center; width: 100%; border: 1px solid #485256; border-radius: 3px; text-decoration: none;}
+
+.tags-box-application .b-item-tags__link.active {color: #0096DB; border: 1px solid #0096DB;}
+.tags-box-application .b-item-tags__link:hover, .tags-box-application .b-item-tags__link:hover {background: #0096DB; color: #fff;}
+
+
+.application-info-box {display: flex; flex-direction: column;}
+.application-info__row {display: flex; flex-wrap: wrap; margin: 0 -8px;}
+.application-info__col1 {width: 100%; padding: 0 8px}
+.application-info__col2 {width: 50%; padding: 0 8px;}
+.application-info__legends {}
+.application-info__legend-item {display: inline-flex;margin-right: 20px;margin-bottom: 20px;}
+.application-info__legend-item .leg-ico {width: 12px;height: 12px; margin-top: 3px; background: #0096DB; border-radius: 50%; margin-right: 4px;}
+.application-info__legend-item .leg-ico.red {background: #DF3545;}
+
+.application-info-box .box-white-info {margin-bottom: 16px;}
+.application-info-box .box-white-info .titl {font-weight: 400;}
+.application-info-box .box-white-info .num {font-size: 32px;}
+
