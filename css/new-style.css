@@ -124,17 +124,18 @@ circle:hover + g.tooltip.css {
 .sc-col2 {min-width: 50%; max-width: 50%;}
 .sc-col {padding: 0 8px; display: flex;}
 .sc-col .box-white-info {width: 100%; display: flex;}
-.sc-col .box-white-info__wrap {width: 100%}
-.card-info-people {display: flex;}
+.sc-col .box-white-info__wrap {width: 100%; display: flex; flex-direction: column}
+.card-info-people {display: flex; flex: 1 1 auto}
 .card-info-people .img {max-width: 224px; min-width: 224px;}
 .card-info-people .right-info {margin-left: 16px; display: flex; flex-direction: column;}
 .card-info-people .title {font-size: 18px; font-weight: bold;margin-bottom: 12px; text-transform: uppercase;}
 .card-info-people .title .post {font-size: 15px;font-weight: 400; color: #485256; text-transform: none; padding-top: 3px;}
-.card-info-people .mini-info {}
+.card-info-people .mini-info {margin-bottom: 24px; min-height: 68px;}
 .card-info-people .phone {}
 .card-info-people .email {}
 .card-info-people .mt-a { margin: auto 0 0; }
 .box-mini-table-info {}
+.box-mini-table-info .box-mini-table-info {margin-left: 64px; padding-top: 12px;}
 .box-mini-table-info+.box-mini-table-info {padding-top: 16px;}
 .box-mini-table-info .b-title {font-weight: bold;padding-bottom: 6px;}
 .box-mini-table-info__row {display: flex;border-bottom: 1px solid #EFF1F3;}
