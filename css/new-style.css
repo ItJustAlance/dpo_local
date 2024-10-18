@@ -258,6 +258,7 @@ table.table3 thead .bord-bottom {border-bottom: 1px solid #fff;}
 
 .filter-result-table {padding-top: 75px;}
 .filter-result-label {font-weight: 700; color: #485256;  font-size: 15px;}
+
 .filter-result-table table {border: none;}
 .filter-result-table table td {border: none; border-bottom: 1px solid #CCCCCC; background: none; padding: 23px 0}
 .filter-result-table table .tr-th td {color: #485256; border-bottom: 1px solid #999; font-weight: 700; padding: 0 0 12px}
@@ -273,3 +274,28 @@ table.table3 thead .bord-bottom {border-bottom: 1px solid #fff;}
 .yellow-clr {color: #FFC107}
 .orange-clr {color: #FF947A;}
 
+.h3-title-box {padding-bottom: 20px;}
+.h3-title-box .text-blue {color: #0096DB;}
+
+.tabs.--tabs-default .tab > label {letter-spacing: 0; text-transform: none; font-size: 15px; font-weight: 700;}
+
+
+
+table.table-3 {border: none;}
+table.table-3 td {border: none; border-bottom: 1px solid #CCCCCC; background: none; padding: 23px 0}
+table.table-3 .tr-th td {color: #485256; border-bottom: 1px solid #999; font-weight: 700; padding: 0 0 12px}
+
+table.table-3 .clr-green {color: #34B53A;}
+table.table-3 strong {color:#2A2A2A; }
+
+
+table.table-4 {border: none}
+table.table-4 td {border: none;padding: 12px}
+
+.application-info-box + .h3-title-box {margin-top: 35px;}
+
+.mt-16 {margin-top: 24px;}
+
+.result-progress-proc {text-align: center; padding: 27px 15px; border: 1px solid #D3D4DB; margin-bottom: 30px;}
+.result-progress-proc .num {font-size: 24px;font-weight: 700;}
+.result-progress-proc .red-clr {color: #DF3545;}

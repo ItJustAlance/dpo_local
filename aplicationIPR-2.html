@@ -165,7 +165,11 @@
               <div class="application-info__col1">
                 <div class="box-white-info">
                   <div class="box-white-info__wrap">
-                   график
+                    <div class="graph-application">
+                      <div class="graph-graph" style="height: 370px;">
+                        <canvas style="height: 370px;" id="chartIPS"></canvas>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -227,128 +231,83 @@
           </div><!--end application-info-box -->
           
           
-          <div class="application-info-box">
-            <div class="application-info__row">
-              <div class="application-info__col1">
-                <div class="application-info__legends">
-                  <div class="application-info__legend-item">
-                    <div class="leg-ico blue"></div> Входная диагностика
-                  </div>
-                  <div class="application-info__legend-item">
-                    <div class="leg-ico red"></div> Выходная диагностика
-                  </div>
-                </div><!--end application-info__legends -->
-              </div>
-            </div>
-            <div class="application-info__row">
-              <div class="application-info__col2">
-                <div class="box-white-info">
-                  <div class="box-white-info__wrap">
-                    <div class="titl">ИК1.1.1 полное ИК-1.1.1. Умеет организовывать, хранить и извлекать данные, информацию и контент наименование</div>
-                    <div class="num">205/<span class="red-clr">205</span></div>
-                  </div>
-                </div><!--end box-white-info -->
-                
-                <div class="box-white-info">
-                  <div class="box-white-info__wrap">
-                    <div class="graph-application">
-                      <div class="graph-graph" style="height: 370px;">
-                        <canvas style="height: 370px;" id="chartIPS"></canvas>
-                      </div>
-                    </div>
-                  </div>
-                </div><!--end box-white-info -->
-              </div>
-              <div class="application-info__col2">
-                <div class="application-info__list">
-                  <div class="box-white-info">
-                    <div class="box-white-info__wrap">
-                      <div class="titl">ИК1.1.1 полное ИК-1.1.1. Умеет организовывать, хранить и извлекать данные, информацию и контент наименование</div>
-                      <div class="num">205/<span class="red-clr">205</span></div>
-                    </div>
-                  </div><!--end box-white-info -->
-                  <div class="box-white-info">
-                    <div class="box-white-info__wrap">
-                      <div class="titl">ИК1.1.1 полное ИК-1.1.1. Умеет организовывать, хранить и извлекать данные, информацию и контент наименование</div>
-                      <div class="num">205/<span class="red-clr">205</span></div>
-                    </div>
-                  </div><!--end box-white-info -->
-                  <div class="box-white-info">
-                    <div class="box-white-info__wrap">
-                      <div class="titl">ИК1.1.1 полное ИК-1.1.1. Умеет организовывать, хранить и извлекать данные, информацию и контент наименование</div>
-                      <div class="num">205/<span class="red-clr">205</span></div>
-                    </div>
-                  </div><!--end box-white-info -->
-                  <div class="box-white-info">
-                    <div class="box-white-info__wrap">
-                      <div class="titl">ИК1.1.1 полное ИК-1.1.1. Умеет организовывать, хранить и извлекать данные, информацию и контент наименование</div>
-                      <div class="num">205/<span class="red-clr">205</span></div>
-                    </div>
-                  </div><!--end box-white-info -->
-                  <div class="box-white-info">
-                    <div class="box-white-info__wrap">
-                      <div class="titl">ИК1.1.1 полное ИК-1.1.1. Умеет организовывать, хранить и извлекать данные, информацию и контент наименование</div>
-                      <div class="num">205/<span class="red-clr">205</span></div>
-                    </div>
-                  </div><!--end box-white-info -->
-                </div><!--end application-info__list -->
-                
-              </div>
-            </div>
-          </div>
+          
+          
         </div><!--end section-box__body -->
       </div><!--end section-box -->
       
       
-      
+      <div class="h3-title-box"><h3 class="text-upper">индивидуальный образовательный маршрут <span class="text-blue">до 31.12.2024</span></h3></div>
       <div class="content-suggestions">
         <div class="tabbed">
           <input type="radio" id="tab1" name="css-tabs" checked="">
           <input type="radio" id="tab2" name="css-tabs">
+          <input type="radio" id="tab3" name="css-tabs">
+          <input type="radio" id="tab4" name="css-tabs">
+          <input type="radio" id="tab5" name="css-tabs">
+
           
-          <ul class="tabs">
-            <li class="tab"><label for="tab1">Курсы</label></li>
-            <li class="tab"><label for="tab2">Мероприятия</label></li>
+          <ul class="tabs --tabs-default">
+            <li class="tab"><label for="tab1">Математический</label></li>
+            <li class="tab"><label for="tab2">Читательский</label></li>
+            <li class="tab"><label for="tab3">Информационный</label></li>
+            <li class="tab"><label for="tab4">Естественнонаучный</label></li>
+            <li class="tab"><label for="tab5">Финансовый</label></li>
           </ul>
           
           <div class="tab-content">
-            <table class="courses-table">
-              <tbody><tr class="header-table">
-                <td style="width: 100px;">Шифр</td>
-                <td>Название курса</td>
-                <td>Даты курса</td>
-                <td>Количество часов</td>
-              </tr>
+            <div class="section-box">
+              <div class="section-box__body">
+                <div class="box-white-info mt-24">
+                  <div class="box-white-info__wrap">
+                    <div class="result-progress-proc">
+                      Пройдено: <span class="num red-clr">12%</span>
+                    </div><!--end result-progress-proc -->
+                    <table class="table-3">
+                      <tbody>
+                      <tr class="d-item tr-th">
+                        <td>Тип</td>
+                        <td>Название/ссылка</td>
+                        <td>Статус</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Кейс</strong></td>
+                        <td><a href="#">Комплект кейсов по формированию функциональной (математической) грамотности</a></td>
+                        <td>Ожидает</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Программа ДПО</strong></td>
+                        <td><a href="#">Комплект кейсов по формированию функциональной (математической) грамотности</a></td>
+                        <td>Ожидает</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Самообразование</strong></td>
+                        <td><a href="#">Комплект кейсов по формированию функциональной (математической) грамотности</a></td>
+                        <td><div class="clr-green">Выполнен</div></td>
+                      </tr>
+                      <tr>
+                        <td><strong>Самообразование</strong></td>
+                        <td><a href="#">Комплект кейсов по формированию функциональной (математической) грамотности</a></td>
+                        <td>Ожидает</td>
+                      </tr>
+                      
+                      </tbody>
+                    </table>
+                  
+                  </div>
+                </div>
               
-              <tr>
-                <td>
-                  <b>04640-23/24-Б</b>
-                </td>
-                <td>
-                  <a href="/courses/2874632/">Основы работы в операционной системе М ОС</a>
-                </td>
-                <td></td>
-                <td>16</td>
-              </tr>
-              <tr>
-                <td>
-                  <b>04832-23/24-Б</b>
-                </td>
-                <td>
-                  <a href="/courses/2874664/">Практика патриотического воспитания обучающихся во внеурочной деятельности современной школы</a>
-                </td>
-                <td></td>
-                <td>32</td>
-              </tr>
-              </tbody></table>
-            <div class="ipr-footer">
+              </div>
+            </div>
+            
+            <!-- div class="ipr-footer">
               <button name="action" value="approve-ipr" class="btn btn-primary">
                 Согласовать проект ИПР
               </button>
               <button name="action" value="decline-ipr" class="btn btn-red">
                 Не согласовывать проект ИПР
               </button>
-            </div>
+            </div -->
           </div>
           
           <div class="tab-content">
@@ -370,8 +329,34 @@
           </div>
         </div>
       </div>
-    
-    
+      
+      
+      <div class="h3-title-box"><h3 class="text-upper">Результаты прохождения ИОМ</h3></div>
+      <div class="section-box">
+        <div class="section-box__body">
+          <div class="box-white-info">
+            <div class="box-white-info__wrap">
+              <p>записей нет</p>
+            
+            </div>
+          </div>
+        
+        </div>
+      </div><!--end section-box -->
+      <div class="h3-title-box"><h3 class="text-upper">Выходная диагностика</h3></div>
+      <div class="section-box">
+        <div class="section-box__body">
+          <div class="box-white-info">
+            <div class="box-white-info__wrap">
+              <p><a href="#">Ссылка на результат</a></p>
+            
+            </div>
+          </div>
+        
+        </div>
+      </div><!--end section-box -->
+      
+      
     </div>
 	
 </div><!--end all-->
@@ -779,523 +764,6 @@ $(function() {
 
 
 
-const ctx = document.getElementById('chartSchool').getContext("2d");
-
-
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ["от 1 до 5", "от 6 до 10", "от 11 до 15", "более 16"],
-        datasets: [{
-            hidden: false,
-            data: [155, 206, 111, 33],
-            datalabels: {
-                anchor: 'end',
-                align: 'end',
-                backgroundColor: null,
-                borderWidth: 0,
-                color:'#DF3545',
-                font: {
-                    size: '15',
-                    weight: 'bold'
-                },
-                formatter: function(value, context) {
-                    return value + "";
-                }
-            },
-            backgroundColor: [
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-            ],
-
-        },
-
-        ]
-    },
-    options:{
-        //aspectRatio: 5/3,
-        maintainAspectRatio: false,
-        tooltips: {
-         enabled: false
-    },
-        scales: {
-        	yAxes: [{
-        		ticks: {
-			        min: 0,
-			        max: 240,
-			        stepSize: 80
-			      },
-        	}]
-        },
-        legend: false,
-        layout: {
-            padding: {
-                top: 20
-            }
-        }
-    }
-});
-
-
-
-
-//РАСПРЕДЕЛЕНИЕ ПО КОНТИНГЕНТУ В ШКОЛАХ
-  const ctx2 = document.getElementById('chartSchoolContingent').getContext("2d");
-
-
-var myChart = new Chart(ctx2, {
-    type: 'horizontalBar',
-    data: {
-        labels: ["менее 1000", "1001-2000", "2001-3000", "3001-4000", "4001-5000", "5001-6000", "6001-7000", "7001-8000", "8001-9000", "10001-10000", "11001-11000"],
-        datasets: [{
-            hidden: false,
-            data: [51, 206, 111, 33, 12, 45, 0, 13, 100, 53, 4],
-            datalabels: {
-                anchor: 'end',
-                align: 'end',
-                backgroundColor: null,
-                borderWidth: 0,
-                color:'#DF3545',
-                font: {
-                    size: '15',
-                    weight: 'bold'
-                },
-                formatter: function(value, context) {
-                    return value + "";
-                }
-            },
-            backgroundColor: [
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-            ],
-
-        },
-
-        ]
-    },
-    options:{
-        //aspectRatio: 5/3,
-        maintainAspectRatio: false,
-        tooltips: {
-         enabled: false
-    },
-        scales: {
-        	yAxes: [{
-				ticks: {
-					beginAtZero: false,
-				},
-				gridLines: {
-					display: false
-				}
-			}],
-			xAxes: [{
-				ticks: {
-					beginAtZero: false,
-					display: false
-				},
-				gridLines: {
-					display: false
-				},
-				border: {
-	              display: false,
-	            },
-			}],
-        },
-        legend: false,
-        
-    }
-});
-
-//  РАСПРЕДЕЛЕНИЕ ДИРЕКТОРОВ ПО ВОЗРАСТНЫМ ГРУППАМ
-
-const ctx3 = document.getElementById('chartDirectorAge').getContext("2d");
-
-
-var myChart = new Chart(ctx3, {
-    type: 'bar',
-    data: {
-        labels: ["до 30", "31-40", "41-50", "51-60", "61-64", "65-69", "более 70"],
-        datasets: [{
-            hidden: false,
-            data: [0, 97, 135, 137, 39, 36, 25],
-            datalabels: {
-                anchor: 'end',
-                align: 'end',
-                backgroundColor: null,
-                borderWidth: 0,
-                color:'#DF3545',
-                font: {
-                    size: '15',
-                    weight: 'bold'
-                },
-                formatter: function(value, context) {
-                    return value + "";
-                }
-            },
-            backgroundColor: [
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-            ],
-
-        },
-
-        ]
-    },
-    options:{
-        //aspectRatio: 5/3,
-        maintainAspectRatio: false,
-        tooltips: {
-         enabled: false
-    },
-        scales: {
-        	yAxes: [{
-        		ticks: {
-			        min: 0,
-			        max: 160,
-			        stepSize: 80
-			      },
-        	}]
-        },
-        legend: false,
-        layout: {
-            padding: {
-                top: 50
-            }
-        }
-        
-    }
-});
-
-
-
-
-
-// СТАЖ ДИРЕКТОРА В ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ
-
-
-  const ctx4 = document.getElementById('chartExperienceDirector').getContext("2d");
-
-
-var myChart = new Chart(ctx4, {
-    type: 'horizontalBar',
-    data: {
-        labels: ["до года", "1-2 года", "3-4 года", "5-6 лет", "7-14 лет", "15-19 лет", "20-29 лет", "более 30 лет"],
-        datasets: [{
-            hidden: false,
-            data: [35, 63, 68, 81, 136, 30, 40, 18],
-            datalabels: {
-                anchor: 'end',
-                align: 'end',
-                backgroundColor: null,
-                borderWidth: 0,
-                color:'#DF3545',
-                font: {
-                    size: '14',
-                    weight: 'bold'
-                },
-                formatter: function(value, context) {
-                    return value + "";
-                }
-            },
-            backgroundColor: [
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-            ],
-
-        },
-
-        ]
-    },
-    options:{
-        //aspectRatio: 5/3,
-        maintainAspectRatio: false,
-        tooltips: {
-         enabled: false
-    },
-        scales: {
-        	yAxes: [{
-				ticks: {
-					beginAtZero: false,
-				},
-				gridLines: {
-					display: false
-				}
-			}],
-			xAxes: [{
-				ticks: {
-					beginAtZero: false,
-					display: false
-				},
-				gridLines: {
-					display: false
-				},
-				border: {
-	              display: false,
-	            },
-			}],
-        },
-        legend: false,
-        layout: {
-            padding: {
-                right: 50
-            }
-        }
-    }
-});
-// УПРАВЛЕНЧЕСКИЙ СТАЖ И.О. ДИРЕКТОРА В ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ
-  const ctx5 = document.getElementById('chartYpravExperienceDirector').getContext("2d");
-
-
-var myChart = new Chart(ctx5, {
-    type: 'horizontalBar',
-    data: {
-        labels: ["до 1 мес", "до 6 мес", "от 6 мес до 2 лет", "от 2 до 4 лет", "от 5 до 7 лет", "7+ лет"],
-        datasets: [{
-            hidden: false,
-            data: [1, 8, 9, 2, 1, 1],
-            datalabels: {
-                anchor: 'end',
-                align: 'end',
-                backgroundColor: null,
-                borderWidth: 0,
-                color:'#DF3545',
-                font: {
-                    size: '14',
-                    weight: 'bold'
-                },
-                formatter: function(value, context) {
-                    return value + "";
-                }
-            },
-            backgroundColor: [
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-            ],
-
-        },
-
-        ]
-    },
-    options:{
-        //aspectRatio: 5/3,
-        maintainAspectRatio: false,
-        tooltips: {
-         enabled: false
-    },
-        scales: {
-        	yAxes: [{
-				ticks: {
-					beginAtZero: false,
-				},
-				gridLines: {
-					display: false
-				}
-			}],
-			xAxes: [{
-				ticks: {
-					beginAtZero: false,
-					display: false
-				},
-				gridLines: {
-					display: false
-				},
-				border: {
-	              display: false,
-	            },
-			}],
-        },
-        legend: false,
-        layout: {
-            padding: {
-                right: 50
-            }
-        }
-    }
-});
-
-
-
-// РАСПРЕДЕЛЕНИЕ ПО ЗАРПЛАТАМ ДИРЕКТОРОВ
-const ctx6 = document.getElementById('chartSchoolPriceDirector').getContext("2d");
-
-
-var myChart = new Chart(ctx6, {
-    type: 'bar',
-    data: {
-        labels: ["менее 300 тыс. руб.", "300-400 тыс. руб.", "400-500 тыс. руб.", "500-600 тыс. руб.", "более 600 тыс. руб."],
-        datasets: [{
-            hidden: false,
-            data: [121, 122, 87, 83, 83],
-            datalabels: {
-                anchor: 'end',
-                align: 'end',
-                backgroundColor: null,
-                borderWidth: 0,
-                color:'#DF3545',
-                font: {
-                    size: '15',
-                    weight: 'bold'
-                },
-                formatter: function(value, context) {
-                    return value + "";
-                }
-            },
-            backgroundColor: [
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-            ],
-
-        },
-
-        ]
-    },
-    options:{
-        //aspectRatio: 5/3,
-        maintainAspectRatio: false,
-        tooltips: {
-         enabled: false
-    },
-        scales: {
-        	yAxes: [{
-        		ticks: {
-        min: 0,
-        max: 160,
-        stepSize: 80
-      },
-        	}]
-        },
-        legend: false,
-        layout: {
-            padding: {
-                top: 50
-            }
-        }
-        
-    }
-});
-
-
-// Количество заместителей руководителя
-const ctx7 = document.getElementById('chartSchoolZamDirector').getContext("2d");
-
-
-var myChart = new Chart(ctx7, {
-    type: 'horizontalBar',
-    data: {
-        labels: ["по содержанию образования, конвергенции образовательных программ", "по контролю качества образования", "по социализации, воспитанию и безопасности обучающихся", "по управлению ресурсами", "заместитель", "по развитию", "по учебной работе", "по организационно-правовым и экономическим вопросам"],
-        datasets: [{
-            hidden: false,
-            data: [509, 507, 475, 423, 60, 2, 1, 1],
-            datalabels: {
-                anchor: 'end',
-                align: 'end',
-                backgroundColor: null,
-                borderWidth: 0,
-                color:'#DF3545',
-                font: {
-                    size: '14',
-                    weight: 'bold'
-                },
-                formatter: function(value, context) {
-                    return value + "";
-                }
-            },
-            backgroundColor: [
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-                "#0096DB",
-            ],
-
-        },
-
-        ]
-    },
-    options:{
-        //aspectRatio: 5/3,
-        maintainAspectRatio: false,
-        tooltips: {
-         enabled: false
-    },
-        scales: {
-        	yAxes: [{
-				ticks: {
-					beginAtZero: false,
-				},
-				gridLines: {
-					display: false
-				}
-			}],
-			xAxes: [{
-				ticks: {
-					beginAtZero: false,
-					display: false
-				},
-				gridLines: {
-					display: false
-				},
-				border: {
-	              display: false,
-	            },
-			}],
-        },
-        legend: false,
-        layout: {
-            padding: {
-                right: 50
-            }
-        }
-    }
-});
-	
-	
-	
 	
 	// Динамическое портфолио
 	const ctx8 = document.getElementById('chartIPS').getContext("2d");
