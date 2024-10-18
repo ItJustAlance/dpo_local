@@ -1,0 +1,364 @@
+
+
+#NameMa {
+    display: inline-block;
+    width: 160px !important;
+}
+
+
+.input-filter-text {
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 820px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.d-line {
+    line-height: 40px;
+    padding: 5px 0;
+    font-size: inherit;
+
+}
+
+.sp-caption {
+    width: 150px;
+    color: #485256;
+    font-size: 15px;
+    font-weight: 700;
+    font-size: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.d-line select {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+.select2-container {
+    width: 820px !important;
+    outline: none;
+}
+
+.select2-container .select2-selection--single {
+    outline: none;
+}
+
+.i-name {
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 820px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.btn-red {
+    outline: none;
+}
+
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid rgb(204, 204, 204) !important;
+    border-radius: 3px;
+
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+
+    position: absolute;
+    top: 1px !important;
+    right: 10px !important;
+    width: 20px !important;
+}
+
+div.d-filter .btn-blue {
+    background: #0096db;
+    border: none;
+    vertical-align: top;
+
+    font-size: 14px;
+    color: #fff ;
+    cursor: pointer;
+    float: left;
+
+    text-decoration: none;
+}
+
+div.d-filter .btn-red {
+    background: #df223d;
+    vertical-align: top;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.show-more-btn {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.show-more-btn:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: -8px;
+    margin-right: 6px;
+}
+
+.show-more-btn a {
+    font-size: 14px;
+    padding-right: 0px;
+    display: inline-block;
+    background: #f7f7f7;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.show-more-btn a span {
+    border-bottom: 1px dashed #0096db;
+    font-size: 14px;
+    display: inline-block;
+    background: #f7f7f7;
+}
+
+
+.show-more-body.closed {
+    overflow: hidden;
+    /* Initially we don't want any height, and we want the contents to be hidden */
+    max-height: 0;
+    overflow: hidden;
+
+}
+
+.show-more-body {
+    overflow: hidden;
+    max-height: 600px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+}
+
+.header-h2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.d-list {
+    margin-top: 30px;
+}
+
+.d-list td {
+    vertical-align: middle;
+    background: #f5f5f5;
+    padding: 15px 15px;
+    border: 2px solid #FFF;
+}
+
+
+.tabbed {
+    overflow-x: hidden; /* so we could easily hide the radio inputs */
+    margin: 32px 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabbed [type="radio"] {
+    /* hiding the inputs */
+    display: none;
+}
+
+.tabs {
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    padding: 0;
+}
+.tab > label {
+    display: block;
+    margin-bottom: -1px;
+    padding: 12px 15px;
+    color: #666;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-bottom: 4px solid #FFFFFF;
+}
+.tab:hover label {
+    border-top-color: #333;
+    color: #333;
+}
+
+.tab-content {
+    display: none;
+    color: #777;
+}
+
+/* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
+.tabbed [type="radio"]:nth-of-type(1):checked ~ .tabs .tab:nth-of-type(1) label,
+.tabbed [type="radio"]:nth-of-type(2):checked ~ .tabs .tab:nth-of-type(2) label,
+.tabbed [type="radio"]:nth-of-type(3):checked ~ .tabs .tab:nth-of-type(3) label,
+.tabbed [type="radio"]:nth-of-type(4):checked ~ .tabs .tab:nth-of-type(4) label,
+.tabbed [type="radio"]:nth-of-type(5):checked ~ .tabs .tab:nth-of-type(5) label {
+    border-bottom: 4px solid #0196DB;
+    background: #fff;
+    color: #222;
+}
+
+.tabbed [type="radio"]:nth-of-type(1):checked ~ .tab-content:nth-of-type(1),
+.tabbed [type="radio"]:nth-of-type(2):checked ~ .tab-content:nth-of-type(2),
+.tabbed [type="radio"]:nth-of-type(3):checked ~ .tab-content:nth-of-type(3),
+.tabbed [type="radio"]:nth-of-type(4):checked ~ .tab-content:nth-of-type(4) {
+    display: block;
+}
+
+.header-portfolio__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: block;
+    border-top: 1px solid #cecece;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.ipr-header {
+    margin-top: 20px;
+}
+
+.content-portfolio table {
+    border: none;
+    font-size: 15px;
+}
+
+.content-portfolio {
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid #cecece;
+}
+
+.content-portfolio td {
+    padding: 10px;
+    border: none;
+    text-align: right;
+    width: 50%;
+    vertical-align: top;
+}
+
+.content-portfolio td + td {
+    text-align: left;
+    width: 50%;
+    font-weight: bold;
+}
+
+.courses-table input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.courses-table .header-table td {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.courses-table td {
+    color: #000;
+    vertical-align: top;
+    padding: 20px 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.ipr-footer .btn-primary {
+    color: #fff;
+    text-decoration: none;
+    background: #0096db;
+    padding: 10px 13px;
+    font-size: 14px;
+    flex-grow: 1;
+    line-height: 24px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.ipr-footer .btn-red {
+    padding: 10px 13px;
+    font-size: 14px !important;
+    flex-grow: 1;
+    line-height: 24px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.ipr-footer {
+    float: right;
+}
+
+.add-from-catalog {
+    background: transparent;
+    border: 2px solid #0096DB;
+    color: #0096DB;
+    padding: 10px 20px;
+    border-radius: 9px;
+    margin: 10px 0 10px;
+    cursor: pointer;
+}
+.add-from-catalog:hover {
+    background: #0096DB;
+    border: 2px solid #0096DB;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 9px;
+
+    cursor: pointer;
+}
+
+.course-add-block {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.course-add-block input[type="text"] {
+    border: 1px solid #c0c0c0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.course-add-block a {
+    margin-left: 30px;
+}

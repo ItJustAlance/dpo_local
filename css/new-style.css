@@ -216,7 +216,7 @@ table.table3 thead .bord-bottom {border-bottom: 1px solid #fff;}
 
 
 .box-comment {display: flex;}
-.box-comment__label {font-size: 14px;font-weight: bold;color: #0096DB;margin-right: 8px;}
+.box-comment__label {font-size: 14px;font-weight: bold;color: #0096DB;margin-right: 8px; max-width: 400px}
 .box-comment__text {}
 
 .tags-box-application {display: flex; flex-wrap: wrap; margin: 0 -8px 16px;}
@@ -243,4 +243,33 @@ table.table3 thead .bord-bottom {border-bottom: 1px solid #fff;}
 .application-info-box .box-white-info {margin-bottom: 16px;}
 .application-info-box .box-white-info .titl {font-weight: 400;}
 .application-info-box .box-white-info .num {font-size: 32px;}
+
+.box-mini__row {display: flex; justify-content: space-between; padding-bottom: 8px;}
+.box-mini__row .b-title {margin-bottom: 8px;}
+.box-mini__row .b-update {color: #949B9D; font-size: 15px; margin-bottom: 8px; text-align: right; min-width: 140px}
+
+
+
+/** IPR 17/10/24 **/
+.section-filter {border: 1px solid #B0B0B0; border-radius: 4px; padding: 32px 20px;}
+
+.section-filter  .b-btns {display: flex;gap: 16px}
+.section-filter  .b-btns .btn {border-radius: 3px}
+
+.filter-result-table {padding-top: 75px;}
+.filter-result-label {font-weight: 700; color: #485256;  font-size: 15px;}
+.filter-result-table table {border: none;}
+.filter-result-table table td {border: none; border-bottom: 1px solid #CCCCCC; background: none; padding: 23px 0}
+.filter-result-table table .tr-th td {color: #485256; border-bottom: 1px solid #999; font-weight: 700; padding: 0 0 12px}
+.filter-result-table .clr-green {color: #34B53A;}
+
+.t-tbl-2 {border: none}
+.t-tbl-2 td {border: none;padding: 12px}
+
+.num.--size-mid {font-size: 24px;font-weight: 400;color: rgba(72, 82, 86, 0.4)}
+.pb16 {padding-bottom: 16px;}
+
+.green-clr {color: #34B53A;}
+.yellow-clr {color: #FFC107}
+.orange-clr {color: #FF947A;}
 
