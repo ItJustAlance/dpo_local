@@ -299,3 +299,30 @@ table.table-4 td {border: none;padding: 12px}
 .result-progress-proc {text-align: center; padding: 27px 15px; border: 1px solid #D3D4DB; margin-bottom: 30px;}
 .result-progress-proc .num {font-size: 24px;font-weight: 700;}
 .result-progress-proc .red-clr {color: #DF3545;}
+
+
+
+
+.table-postavshik {}
+.table-postavshik td {align-items: center}
+.table-postavshik .header-table td {
+    align-items: center;
+    color: #485256;
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+}
+.table-postavshik .tr-toggler-btn { cursor: pointer}
+.table-postavshik .tr-toggler-btn:hover {opacity: .7;}
+.table-postavshik .tr-toggler-btn.--open svg {transform: rotate(90deg)}
+.table-postavshik .tr-hidden {display: none}
+.table-postavshik .tr-hidden.show {display: table-row}
+
+.table-postavshik-text {font-size: 14px;padding: 35px 35px 10px;}
+.table-postavshik-text .title {font-size: 15px;font-weight: bold;margin-bottom: 15px;}
+.table-postavshik-text p {margin: 0; padding: 8px 0 0 !important;}
+
+.link-load {display: inline-block; vertical-align: top; overflow: hidden; position: relative; text-decoration: underline; cursor: pointer; color: #0096DB;}
+.link-load .txt-link {z-index: 0; position: relative;  }
+.link-load:hover {text-decoration: none}
+.link-load .inp-file {opacity: 0; z-index: 1; position: absolute;top: 0;left: 0; cursor: pointer; width: 200%; height: 200%;}
+.link-load {}
