@@ -4,7 +4,8 @@
 .new-body .all {width: 100%; max-width: 1040px;}
 .title-page {padding-bottom: 12px;margin-bottom: 32px; border-bottom: 1px solid #B0B0B0;}
 .nav-top-links {display: flex;margin: 0 -6px; padding-bottom: 32px;}
-.nav-top-links .item-nav-top-link {width: 33.333%;padding: 0 6px;}
+.nav-top-links .item-nav-top-link {width: 33.333%;padding: 0 6px; flex: 1 1 auto}
+.nav-top-links.--cols2 .item-nav-top-link {width: 50%;}
 .nav-top-links .item {display: block; font-size: 14px;color: #485256;padding: 8px; text-align: center; width: 100%; border: 1px solid #485256; border-radius: 3px; text-decoration: none;}
 
 .nav-top-links .item.active {color: #0096DB; border: 1px solid #0096DB;}
@@ -292,6 +293,11 @@ table.table-3 strong {color:#2A2A2A; }
 table.table-4 {border: none}
 table.table-4 td {border: none;padding: 12px}
 
+table.table-5 {border: none;}
+table.table-5 td {border: none; border-bottom: 1px solid #CCCCCC; background: none; padding: 10px}
+table.table-5 .tr-th td {color: #485256; border:none; font-weight: 700; padding: 10px}
+
+
 .application-info-box + .h3-title-box {margin-top: 35px;}
 
 .mt-16 {margin-top: 24px;}
@@ -300,7 +306,7 @@ table.table-4 td {border: none;padding: 12px}
 .result-progress-proc .num {font-size: 24px;font-weight: 700;}
 .result-progress-proc .red-clr {color: #DF3545;}
 
-
+div.b-list-kyrs.--box-no-border {border: none; padding: 0; float: none;}
 
 
 .table-postavshik {}
@@ -321,8 +327,18 @@ table.table-4 td {border: none;padding: 12px}
 .table-postavshik-text .title {font-size: 15px;font-weight: bold;margin-bottom: 15px;}
 .table-postavshik-text p {margin: 0; padding: 8px 0 0 !important;}
 
+.table-user-info {border: none; font-size: 15px;font-weight: bold;}
+.table-user-info th {color: #7E7E7E; vertical-align: top; border: none}
+.table-user-info td {color: #2A2A2A; vertical-align: top; border: none;}
+
+.table-user-info .border-top td,
+.table-user-info .border-top th {border-top: 1px solid #EFF1F3; padding-top: 14px;}
+.table-user-info .border-bottom td,
+.table-user-info .border-bottom th {padding-bottom: 14px; border-bottom: 1px solid #EFF1F3;}
+
 .link-load {display: inline-block; vertical-align: top; overflow: hidden; position: relative; text-decoration: underline; cursor: pointer; color: #0096DB;}
 .link-load .txt-link {z-index: 0; position: relative;  }
 .link-load:hover {text-decoration: none}
 .link-load .inp-file {opacity: 0; z-index: 1; position: absolute;top: 0;left: 0; cursor: pointer; width: 200%; height: 200%;}
 .link-load {}
+
