@@ -342,3 +342,32 @@ div.b-list-kyrs.--box-no-border {border: none; padding: 0; float: none;}
 .link-load .inp-file {opacity: 0; z-index: 1; position: absolute;top: 0;left: 0; cursor: pointer; width: 200%; height: 200%;}
 .link-load {}
 
+
+.radiolabel-text {display: inline-block; vertical-align: top}
+.radiolabel-new {display: inline-flex;}
+.radiolabel-new input[type="checkbox"] {
+    min-width: 20px;
+    max-width: 20px;
+    height: 14px;
+    margin: 4px 5px 0 0;
+}
+
+#modalSuccess {
+    display: none;
+}
+
+.modal-new {
+    width: 100%;
+    max-width: 600px;
+}
+.modal-new label {width: 100%; display: block}
+.modal-new select {
+    width: 100%;
+}
+.modal-new textarea {
+    width: 100%;
+}
+.modal-new-input {
+    margin-bottom: 15px;
+}
+
