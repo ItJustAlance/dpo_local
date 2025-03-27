@@ -19,7 +19,7 @@
 .mobile-page nav {width: 100% !important; margin-bottom: 15px}
 
 .mobile-page .d-data-container { max-width: 100%; overflow: auto;}
-.mobile-page .t-sch-data {min-width: 680px;}
+.mobile-page .t-sch-data {width: 100%}
 
 .mobile-page .title-page {padding: 12px}
 .mobile-page .nav-top-links {flex-wrap: wrap;}
@@ -32,4 +32,9 @@
 .mobile-page footer .menu {width: 100%; }
 .mobile-page footer .menu ul {display: flex; flex-wrap: wrap; gap: 12px;}
 .mobile-page footer .copy {float: left;}
+.mobile-page .t-sch-data {display: block;}
+.mobile-page .t-sch-data thead {display: none;}
+.mobile-page .t-sch-data tbody {display: block;}
+.mobile-page .t-sch-data tr {display: block; border: 1px solid #999; padding: 10px; margin: 0 0 15px}
+.mobile-page .t-sch-data td {display: block; border: none;}
 }

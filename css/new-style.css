@@ -371,3 +371,46 @@ div.b-list-kyrs.--box-no-border {border: none; padding: 0; float: none;}
     margin-bottom: 15px;
 }
 
+
+/** 26.03.25 **/
+/** Раздел Запрос сведений из реестра удостоверений **/
+
+.input__input {border: 1px solid #C5C2C2; width: 100%; color: #2A2A2A; font-size: 14px; border-radius: 3px; padding: 6px;}
+
+.new-body div.left-col .btn-support,
+.new-body div.d-tech-info .btn-support {
+    width: auto;
+    max-width: 220px;
+}
+
+
+.search-reestr-ydo { margin-bottom: 64px;}
+
+.search-reestr-ydo__table {width: 100%; max-width: 480px; border: none; color: #2A2A2A; font-size: 14px;}
+.search-reestr-ydo__table td {border: none; padding: 12px;}
+.search-reestr-ydo__table td.col-name { width: 200px; font-weight: bold; text-align: right}
+
+
+.result-search-reestr-ydo {}
+.result-search-reestr-ydo__h-title {margin-bottom: 24px;}
+.result-search-reestr-ydo__message {margin-bottom: 24px;}
+.result-search-reestr-ydo .message-info-box {}
+.result-search-reestr-ydo .message-info-box__status {border: 1px solid #C0E5D1; background: #E5F5EC; padding: 12px 24px; border-radius: 4px; display: inline-flex; align-items: center; color: #1F1F1F; font-size: 16px; gap: 16px;}
+.result-search-reestr-ydo .message-info-box .b-icon { display: flex; align-items: center}
+
+
+.result-search-reestr-ydo__result {}
+.result-search-reestr-ydo__result-box {border: 1px solid #EFF1F3; border-radius: 4px; padding: 12px; margin-bottom: 24px;}
+.result-search-reestr-ydo__result-table {width: 100%; border: none; margin-bottom: 0;}
+.result-search-reestr-ydo__result-table td {padding: 12px; border: none; font-weight: bold; font-size: 15px;}
+.result-search-reestr-ydo__result-table .col-th {color: #7E7E7E; width: 220px}
+.result-search-reestr-ydo__result-table .col-td {}
+
+
+.search-reestr-notification { }
+.search-reestr-notification__wrapper {position: relative; display: flex; width: 100%; max-width: 400px; padding: 24px; box-shadow: 0px 6px 12px 0px #0000001A; border: 1px solid #FFCCD2; background: #FFEBEE; border-radius: 4px; color: #1F1F1F; font-size: 16px;}
+.search-reestr-notification .b-icon { width: 24px; margin-right: 16px; max-height: 36px;}
+.search-reestr-notification .b-text {}
+.search-reestr-notification .title-mess {font-size: 20px; font-weight: bold; margin-bottom: 8px; padding-right: 36px;}
+.search-reestr-notification .b-close { position: absolute; top: 25px; right: 25px; cursor: pointer}
+
